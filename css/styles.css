@@ -7,6 +7,154 @@ header {
   background-color: #ffffff;
 }
 
+header .header-logo-text-web {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.02;
+  text-transform: uppercase;
+  width: 44px;
+  height: 21px;
+}
+
+header .header-logo-text-studio {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.02;
+  text-transform: uppercase;
+  width: 71px;
+  height: 21px;
+}
+
+header .nav-studio {
+  color: var(--NAVY-BLUE, #2e2f42);
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.02;
+  text-decoration: none;
+}
+
+header .nav-studio:hover {
+  color: var(--OCEAN, #404bbf);
+
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.02;
+}
+
+header .nav-portfolio {
+  color: var(--NAVY-BLUE, #2e2f42);
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.02;
+  text-decoration: none;
+}
+
+header .nav-portfolio:hover {
+  color: var(--OCEAN, #404bbf);
+
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.02;
+}
+
+header .nav-contacts {
+  color: var(--NAVY-BLUE, #2e2f42);
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.02;
+  text-decoration: none;
+}
+
+header .nav-contacts:hover {
+  color: var(--OCEAN, #404bbf);
+
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.02;
+}
+
+header .contacts-mail {
+  color: var(--SLATE, #434455);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.02;
+  text-decoration: none;
+}
+
+header .contacts-mail:hover {
+  color: var(--OCEAN, #404bbf);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.02;
+}
+
+header .contacts-tel {
+  color: var(--SLATE, #434455);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.02;
+  text-decoration: none;
+}
+
+header .contacts-tel:hover {
+  color: var(--OCEAN, #404bbf);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.02;
+}
+
 main .hero {
   background-color: #2e2f42;
   color: var(--WHITE, #fff);
@@ -33,6 +181,7 @@ main .oreder-service-btn {
   background: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--WHITE, #fff);
+  cursor: pointer;
 
   /* Button Text */
   font-family: Roboto;
@@ -40,90 +189,13 @@ main .oreder-service-btn {
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04;
 }
 
-header .header-logo-text-web {
-  color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  width: 44px;
-  height: 21px;
-}
-
-header .header-logo-text-studio {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  width: 71px;
-  height: 21px;
-}
-
-header .nav-studio {
-  color: var(--NAVY-BLUE, #2e2f42);
-  /* Body Medium */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-header .nav-portfolio {
-  color: var(--NAVY-BLUE, #2e2f42);
-  /* Body Medium */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-header .nav-contacts {
-  color: var(--NAVY-BLUE, #2e2f42);
-  /* Body Medium */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-header .contacts-mail {
-  color: var(--SLATE, #434455);
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-header .contacts-tel {
-  color: var(--SLATE, #434455);
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+main .oreder-service-btn:hover {
+  border-radius: 4px;
+  background: var(--OCEAN, #404bbf);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 h2 {
@@ -175,7 +247,7 @@ footer .footer-logo-text-web {
   font-style: normal;
   font-weight: 700;
   line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
+  letter-spacing: 0.02;
   text-transform: uppercase;
 }
 
@@ -186,7 +258,7 @@ footer .footer-logo-text-studio {
   font-style: normal;
   font-weight: 700;
   line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
+  letter-spacing: 0.02;
   text-transform: uppercase;
 }
 
@@ -199,5 +271,5 @@ footer .footer-text {
   font-style: 400;
   font-weight: 400;
   line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02;
 }

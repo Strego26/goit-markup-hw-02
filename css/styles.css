@@ -4,7 +4,8 @@ body {
 }
 
 header {
-  background-color: #ffffff;
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
 }
 
 header .header-logo-text-web {
@@ -13,7 +14,7 @@ header .header-logo-text-web {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.166; /* 116.667% */
   letter-spacing: 0.02;
   text-transform: uppercase;
   width: 44px;
@@ -26,7 +27,7 @@ header .header-logo-text-studio {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.166; /* 116.667% */
   letter-spacing: 0.02;
   text-transform: uppercase;
   width: 71px;
@@ -40,7 +41,7 @@ header .nav-studio {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02;
   text-decoration: none;
 }
@@ -53,7 +54,7 @@ header .nav-studio:hover {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02;
 }
 
@@ -64,7 +65,7 @@ header .nav-portfolio {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02;
   text-decoration: none;
 }
@@ -77,7 +78,7 @@ header .nav-portfolio:hover {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02;
 }
 
@@ -88,7 +89,7 @@ header .nav-contacts {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02;
   text-decoration: none;
 }
@@ -101,7 +102,7 @@ header .nav-contacts:hover {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02;
 }
 
@@ -113,7 +114,7 @@ header .contacts-mail {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02;
   text-decoration: none;
 }
@@ -126,7 +127,7 @@ header .contacts-mail:hover {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02;
 }
 
@@ -138,7 +139,7 @@ header .contacts-tel {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02;
   text-decoration: none;
 }
@@ -151,7 +152,7 @@ header .contacts-tel:hover {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02;
 }
 
@@ -165,9 +166,8 @@ h1 {
   /* Header 1 */
   font-family: Roboto;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 1.071; /* 107.143% */
   letter-spacing: 0.02;
   width: 700;
 }
@@ -188,7 +188,7 @@ main .oreder-service-btn {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.04;
 }
 
@@ -198,6 +198,18 @@ main .oreder-service-btn:hover {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+main .core-values {
+  background: #fff;
+}
+
+main .our-team {
+  background: var(--CLOUD, #f4f4fd);
+}
+
+main .our-portfolio {
+  background: #fff;
+}
+
 h2 {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -205,9 +217,8 @@ h2 {
   /* Header 2 */
   font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.111; /* 111.111% */
   letter-spacing: 0.02;
   text-transform: capitalize;
 }
@@ -218,9 +229,8 @@ h3 {
   /* Header 3 */
   font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.02;
 }
 
@@ -230,9 +240,7 @@ p {
   /* Body */
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02;
 }
 
@@ -246,7 +254,7 @@ footer .footer-logo-text-web {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.166; /* 116.667% */
   letter-spacing: 0.02;
   text-transform: uppercase;
 }
@@ -257,7 +265,7 @@ footer .footer-logo-text-studio {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.166; /* 116.667% */
   letter-spacing: 0.02;
   text-transform: uppercase;
 }
@@ -268,8 +276,6 @@ footer .footer-text {
   /* Body */
   font-family: Roboto;
   font-size: 16px;
-  font-style: 400;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02;
 }

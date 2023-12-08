@@ -160,7 +160,7 @@ main .hero {
   text-align: center;
 }
 
-h1 .main-button-header {
+main .main-button-header {
   /* Header 1 */
   font-family: "Roboto", sans-serif;
   font-size: 56px;
@@ -195,6 +195,15 @@ main .core-values {
   background: #fff;
 }
 
+main .p-text {
+  color: var(--SLATE, #434455);
+
+  /* Body */
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
 main .our-team {
   background: var(--CLOUD, #f4f4fd);
 }
